@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Buyproperty"
+    }
+  },
+  "defaultProject": "Buyproperty",
+  "cli": {
+    "analytics": "c331d1a3-c80d-4702-b7f5-ccc155d9ddd6"
+  }
 }
