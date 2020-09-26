@@ -1,35 +1,46 @@
 [{
   "Id" : 1,
+  "SellRent":2,
   "Name" : "Raul Ville",
   "Type" : "House",
-  "Price" : 20000
+  "Price" : 20000,
+  "Image": "prop-1"
 },
 {
   "Id" : 2,
+  "SellRent":1,
   "Name" : "Stark Ville",
   "Type" : "House",
-  "Price" : 100
+  "Price" : 100,
+  "Image": "prop-2"
 },
 {
   "Id" : 3,
+  "SellRent":1,
   "Name" : "Stark erotic",
   "Type" : "House",
-  "Price" : 10000
+  "Price" : 10000,
+  "Image": "prop-3"
 },
 {
   "Id" : 4,
+  "SellRent":1,
   "Name" : "RaulStark",
   "Type" : "House",
-  "Price" : 1600
+  "Price" : 1600,
+  "Image": "prop-4"
 },
 {
   "Id" : 5,
+  "SellRent":2,
   "Name" : "Rahul ville",
   "Type" : "House",
-  "Price" : 1000
+  "Price" : 1000,
+  "Image": "prop-2"
 },
 {
   "Id" : 6,
+  "SellRent":1,
   "Name" : "Raul Stark",
   "Type" : "House",
   "Price" : 16000
