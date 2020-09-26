@@ -25,7 +25,6 @@ height: 250px;
 {
   position: absolute;
   bottom: -30%;
-  bottom: 0;
   left: 0;
   right: 0;
   margin-right: auto;
@@ -35,5 +34,5 @@ height: 250px;
 
 .card-img-wrapper:hover .member-icons
 {
-  bottom: -8%;
+  bottom: 0;
 }
