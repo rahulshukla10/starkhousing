@@ -11,6 +11,7 @@ import { NarBarComponent } from './nar-bar/nar-bar.component';
 import { HousingService } from './service/housing.service';
 import { AddPropertyComponent } from './add-property/add-property.component';
 import { PropertyDetailsComponent } from './property-details/property-details.component';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes: Routes = [
   {path: 'property-details/:id',component: PropertyDetailsComponent},
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
 
   ],
   providers: [
